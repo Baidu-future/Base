@@ -1,0 +1,126 @@
+{
+  "id": "4704f056-cc36-49af-ba35-b92ea0fd3677",
+  "version": "2.0",
+  "name": "pro2",
+  "url": "http://localhost",
+  "tests": [{
+    "id": "4647f857-2c3b-4aa8-b857-4b9b45310d54",
+    "name": "test2",
+    "commands": [{
+      "id": "31fe34ab-ea87-42b6-a6c6-b226cea613b1",
+      "comment": "",
+      "command": "open",
+      "target": "/upload/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b71db4a3-d553-4594-9207-84819d537bbb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1039x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f164b7d4-b2ec-4127-888c-f41c14d146fb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=高级搜索",
+      "targets": [
+        ["linkText=高级搜索", "linkText"],
+        ["css=#searchForm > a", "css:finder"],
+        ["xpath=//a[contains(text(),'高级搜索')]", "xpath:link"],
+        ["xpath=//form[@id='searchForm']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'search.php?act=advanced_search')]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'高级搜索')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67875d8-308c-4e6c-a620-29be41e036c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=min_price",
+      "targets": [
+        ["id=min_price", "id"],
+        ["name=min_price", "name"],
+        ["css=#min_price", "css:finder"],
+        ["xpath=//input[@id='min_price']", "xpath:attributes"],
+        ["xpath=//form[@id='advancedSearchForm']/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be8229cf-3252-4068-8888-39b4eda34d2e",
+      "comment": "",
+      "command": "type",
+      "target": "id=min_price",
+      "targets": [
+        ["id=min_price", "id"],
+        ["name=min_price", "name"],
+        ["css=#min_price", "css:finder"],
+        ["xpath=//input[@id='min_price']", "xpath:attributes"],
+        ["xpath=//form[@id='advancedSearchForm']/table/tbody/tr[4]/td[2]/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "764df0a1-c30a-435f-9fc9-0fbdb2157817",
+      "comment": "",
+      "command": "click",
+      "target": "id=max_price",
+      "targets": [
+        ["id=max_price", "id"],
+        ["name=max_price", "name"],
+        ["css=#max_price", "css:finder"],
+        ["xpath=//input[@id='max_price']", "xpath:attributes"],
+        ["xpath=//form[@id='advancedSearchForm']/table/tbody/tr[4]/td[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//td[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b93bdca-b5cd-462c-8c02-f273eba23f0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=max_price",
+      "targets": [
+        ["id=max_price", "id"],
+        ["name=max_price", "name"],
+        ["css=#max_price", "css:finder"],
+        ["xpath=//input[@id='max_price']", "xpath:attributes"],
+        ["xpath=//form[@id='advancedSearchForm']/table/tbody/tr[4]/td[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//td[2]/input[2]", "xpath:position"]
+      ],
+      "value": "999"
+    }, {
+      "id": "8ed3f032-3e8b-4ac7-a5e9-bb3accc98c67",
+      "comment": "",
+      "command": "click",
+      "target": "name=Submit",
+      "targets": [
+        ["name=Submit", "name"],
+        ["css=.bnt_blue_1", "css:finder"],
+        ["xpath=//input[@name='Submit']", "xpath:attributes"],
+        ["xpath=//form[@id='advancedSearchForm']/table/tbody/tr[7]/td/input[2]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ac3a28e-b6ea-444d-82fe-d6c2d6016728",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "852f5c27-7d1a-41a0-8707-47edbfeaddf5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4647f857-2c3b-4aa8-b857-4b9b45310d54"]
+  }],
+  "urls": ["http://localhost/"],
+  "plugins": []
+}
