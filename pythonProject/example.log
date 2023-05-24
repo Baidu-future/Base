@@ -1,0 +1,14 @@
+DEBUG:root:this message should go to the log file
+INFO:root:so should this
+WARNING:root:and this, too
+DEBUG:root:this message should go to the log file
+INFO:root:so should this
+WARNING:root:and this, too
+DEBUG:root:this message should go to the log file
+INFO:root:so should this
+WARNING:root:and this, too
+DEBUG:root:this message should go to the log file
+INFO:root:so should this
+WARNING:root:and this, too
+DEBUG:root:this message should go to the log file
+DEBUG:root:this message should go to the log file
